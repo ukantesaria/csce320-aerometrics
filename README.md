@@ -33,3 +33,13 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
     - created several charts comparing different factors with the generated scores to confirm the formula was providing desired and sensible results.
 
 ##### Clustering...
+
+##### Visualization
+- The visualization was obtained from the airport data and the ranked and processed flight delay stats
+- This visualization was possible using plotly
+- Mapbox API is begin accessed using ploty to create visualization
+- Open Street Map is being used in Map box API because of following info
+    - Open Source Map.
+    - Easy to manipulate.
+    - Good Coloring Scheme with our model.
+    - Great Details with frequent updates, because of open source nature.
