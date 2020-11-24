@@ -1,8 +1,8 @@
 # AeroMetrics - Airport Efficiency Ratings
 ### Overview
-```
+`
 The goal of the AeroMetrics project is being able to measure an airport's efficiency based upon handling traffic with as less delay as possible, and using it to cluster airports, analyze what makes them efficient, provide feedback to the airports, and information to the public.
-```
+`
 ### Libraries used:
 - Plotly
 - Pandas
@@ -13,7 +13,9 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
 - Numpy
 
 `Running the main file on your own computer might not be convenient and potentially too time consuming due to the large raw files used in this study. In order to have the smoothest experience, we highly recommend accessing our google collab jupyter notebook through the following linked folder:`
+
 [Link to google drive folder containing raw data and final submission file](https://drive.google.com/drive/folders/1h3rHHGbOTcc6dEzsedYLwH8wtWmqdlFB?usp=sharing)
+
 *Ideally, you should not have to run any cells yourself and be able to view the results of each cell we've run through the collab notebook.*
 
 ##### Please continue reading below for details regarding our process.
