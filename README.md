@@ -17,7 +17,7 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
 [Link to google drive folder containing raw data and final submission file](https://drive.google.com/drive/folders/1h3rHHGbOTcc6dEzsedYLwH8wtWmqdlFB?usp=sharing)
 
 *Ideally, you should not have to run any cells yourself and be able to view the results of each cell we've run through the collab notebook.*
-**Please make sure to authenticate using your TAMU email. Instructor and TA has been added to the drive. Please let us know, if someone else wants the access to drive. Please email us at [Email](uak4676@tamu.edu)**
+**Please make sure to authenticate using your TAMU email. Instructor and TA has been added to the drive. Please let us know, if someone else wants the access to drive. Please email us at uak4676@tamu.edu**
 
 ##### Please continue reading below for details regarding our process.
 ##### Cleaning and Preprocessing
