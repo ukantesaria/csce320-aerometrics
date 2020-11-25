@@ -41,8 +41,11 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
 - Uses the average score across each cluster to rank them
 - Anaylzes the distribution of airports across the clusters
 
-##### Classification ...
-
+##### Classification & Regression
+- Labeled the delay intervals and efficiency scores of airport 
+- Transformed the data into normal distribution, applied PCA to reduce the model features 
+- Classified with the delay intervals labels and airport efficiency scores labels using Linear Discriminant Analysis and RandomForest
+- Cross validated with Lasso Regression (KFold = 5) and Linear Regression
 
 ##### Visualization
 - The visualization was obtained from the airport data and the ranked and processed flight delay stats
