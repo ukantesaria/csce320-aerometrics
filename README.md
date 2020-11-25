@@ -33,7 +33,14 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
 - Validating the formula
     - created several charts comparing different factors with the generated scores to confirm the formula was providing desired and sensible results.
 
-##### Clustering...
+##### Clustering
+- Clustering data uses average_stats, the preprocessed data.
+- Uses PCA to reduce the dimensionality of the data
+- Uses Elbow Method to determine optimal number of clusters
+- Then uses KMeans to cluster the data into k = 5 clusters
+- Uses the average score across each cluster to rank them
+- Anaylzes the distribution of airports across the clusters
+
 
 ##### Visualization
 - The visualization was obtained from the airport data and the ranked and processed flight delay stats
