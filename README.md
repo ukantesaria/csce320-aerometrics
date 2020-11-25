@@ -11,6 +11,7 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
 - Math
 - Random
 - Numpy
+- scikit-learn (PCA, KMeans, StandardScaler)
 
 `Running the main file on your own computer might not be convenient and potentially too time consuming due to the large raw files used in this study. In order to have the smoothest experience, we highly recommend accessing our google collab jupyter notebook through the following linked folder:`
 
@@ -35,17 +36,14 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
 
 ##### Clustering
 - Clustering data uses average_stats, the preprocessed data.
-- Uses PCA to reduce the dimensionality of the data
-- Uses Elbow Method to determine optimal number of clusters
-- Then uses KMeans to cluster the data into k = 5 clusters
-- Uses the average score across each cluster to rank them
-- Anaylzes the distribution of airports across the clusters
+- Uses PCA to reduce the dimensionality of the data down to two dimensions.
+- Uses Elbow Method to determine optimal number of clusters (k = 5).
+- Then uses KMeans to cluster the data into k = 5 clusters. 
+- Uses the average score across each cluster to rank them (Best = Cluster 0, Worst = Cluster 1)
+- Analyzes the distribution of airports across the clusters using count and percentages
 
-##### Classification & Regression
-- Labeled the delay intervals and efficiency scores of airport 
-- Transformed the data into normal distribution, applied PCA to reduce the model features 
-- Classified with the delay intervals labels and airport efficiency scores labels using Linear Discriminant Analysis and RandomForest
-- Cross validated with Lasso Regression (KFold = 5) and Linear Regression
+##### Classification ...
+
 
 ##### Visualization
 - The visualization was obtained from the airport data and the ranked and processed flight delay stats
