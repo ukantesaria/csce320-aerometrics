@@ -50,6 +50,7 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
 - Used KFold for cross validation, performed Lasso and Linear Regression on the original data 
 
 ##### Visualization
+- Link to visualization can be found [here](https://ukantesaria.github.io/aerometrics/) and at the end of the final notebook
 - The visualization was obtained from the airport data and the ranked and processed flight delay stats
 - This visualization was possible using plotly
 - Mapbox API is begin accessed using ploty to create visualization
