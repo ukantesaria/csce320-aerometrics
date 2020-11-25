@@ -35,7 +35,7 @@ The goal of the AeroMetrics project is being able to measure an airport's effici
     - created several charts comparing different factors with the generated scores to confirm the formula was providing desired and sensible results.
 
 ##### Clustering
-- Clustering data uses average_stats, the preprocessed data.
+- Clustering data uses ranked_efficiency_stats, preprocessed data in csv form.
 - Uses PCA to reduce the dimensionality of the data down to two dimensions.
 - Uses Elbow Method to determine optimal number of clusters (k = 5).
 - Then uses KMeans to cluster the data into k = 5 clusters. 
